@@ -1,0 +1,11 @@
+<launch>
+
+    <arg name="param_path" default="$(find rtk_localization)/cfg/huaxian_0602.txt"/>
+    <arg name="gnss_ins_src" default="/chcnav_ros/gnss_ins"/>
+
+    <node pkg="rtk_localization" type="rtk_record_origin_hxc" name="rtk_record_origin_hxc_node" output="screen">
+        <param name="param_path" value="$(arg param_path)"/>
+        <param name="gnss_ins_src" value="$(arg gnss_ins_src)"/>
+    </node>
+
+</launch>
