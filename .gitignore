@@ -1,5 +1,6 @@
-/apollo/*
-/ackermann_gazebo/*
-/automated-driving-control/*
-/Baidu-Apollo-control-algorithm/*
+# /apollo/*
+apollo/
+ackermann_gazebo/
+automated-driving-control/
+Baidu-Apollo-control-algorithm/
 # /CMakeTutorial/*

@@ -1,8 +1,0 @@
-<launch>
-	<arg name="publish_tf" default="false" />
-	<arg name="odom_topic" default="/odom_chassis" />
-	<node pkg="chassis_ros" type="chassis_ros_node" name="chassis" output="screen" required="true" >
-		<param name="publish_tf" value="$(arg publish_tf)"/>
-		<param name="odom_topic" value="$(arg odom_topic)"/>
-	</node>
-</launch>
